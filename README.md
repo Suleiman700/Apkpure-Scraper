@@ -1,24 +1,21 @@
-# Apkpure Scraper
-This Scraper will scrap apps data from apkpure website given a link to a particular category and will save the data in a json file. This Scraper Works as of 2021.
+# ApkPure Scraper
+This Scraper will scrap apps data from ApkPure website given a link to a particular category and will save the data in a json file.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![pythonbadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+This Scraper Works as of 2025.
 
 This scraper will extract data about each app or game: 
 
 - **Category of the app**
-
-- **Icon URL of the app**
-
-- **Name of the app**
-
+- **App Name**
 - **Publisher Name**
-
-- **Download Link**
-
+- **Icon URL of the app**
+- **Name of the app**
+- **Direct Download Link**
 - **Any Video and Images URL**
-
-- **Text Description**
+- **Versions History (includes version description and download link)**
+- **App description**
+- **App size**
+- **App date**
 
 ## Getting started
 Just copy any category link of apps or games from apkpure website and past it in the scraper.
@@ -46,16 +43,8 @@ it you will have to have python and dependencies (requirements.txt file) install
 ```
 $ python3 -m venv env
 ```
-- Activate the virtual environment
-```
-$ source env/Source/activate
-```
 - Install dependencies using
 ```
 $ pip install -r requirements.txt
 ```
 -  Past the link to a particular category of apps and specify the number of pages you wanna get apps upto (each page has 20 apps).
-
-## Contact
-
-For any feedback or queries, please reach out to me at [suwaidaslam@gmail.com](suwaidaslam@gmail.com).
